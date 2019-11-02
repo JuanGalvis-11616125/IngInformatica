@@ -1,0 +1,4 @@
+﻿  Lista.cpp
+C:\Users\Juane\OneDrive\Documentos\Haciendo\POO Algoritmos\ListasPOO\Lista.cpp(400,25): warning C4305:  '=': truncamiento de '__int64' a 'int'
+C:\Users\Juane\OneDrive\Documentos\Haciendo\POO Algoritmos\ListasPOO\Lista.cpp(400,15): warning C4309:  '=': truncamiento de valor constante
+  ListasPOO.vcxproj -> C:\Users\Juane\OneDrive\Documentos\Haciendo\POO Algoritmos\ListasPOO\Debug\ListasPOO.exe
