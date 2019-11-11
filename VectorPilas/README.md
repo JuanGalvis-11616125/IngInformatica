@@ -6,4 +6,8 @@ Acciones:
 - Validar Pila Vacia
 - Apilar
 - Desapilar
+- Buscar
+- Reemplazar
+- Eliminar
 - Mostrar Pila
+- Insertar Ordenado

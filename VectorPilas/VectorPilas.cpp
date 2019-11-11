@@ -18,6 +18,8 @@ int main()
 	
 	Pilas* Pila1 = new Pilas(Dime);
 
+	Pila1->LLenarVector();
+
 	do
 	{
 
@@ -31,7 +33,7 @@ int main()
 		Vac = Pila1->PilaVacia();
 		if (Vac == true)
 		{
-			cout << "PILA VACIA";
+			cout << "LA PILA ESTA VACIA";
 		}
 		else
 		{
@@ -45,7 +47,7 @@ int main()
 		LLen = Pila1->PilaLLena();
 		if (LLen == true)
 		{
-			cout << "PILA LLENA";
+			cout << "LA PILA ESTA LLENA";
 		}
 		else
 		{
@@ -75,22 +77,44 @@ int main()
 	}break;
 
 	case 5:
-	{
-		Pila1->MostrarV();
+	{	
+		Pila1->Buscar();
+	
 	}break;
 
 	case 6:
-	{}break;
+	{
+		Pila1->Reemplazar();
+	}break;
 
-	default:
-		
-		cout << "OPCION INVALIDA";
+	case 7:
+	{
+		Pila1->Eliminar();
+	}break;
+
+	case 8:
+	{
+		Pila1->MostrarV();
+	}break;
+	case 9:
+	{
+		Pila1->InsertarOrdenado();
+	}		
 	break;
+
+	case 10:
+		Pila1->Ordenar();
+	break;
+
+	case 11:
+
+    break;
+
 	}
 
 	system("pause>null");
 	system("cls");
-	} while (opc != 6);
+	} while (opc != 11);
 		
 }
 
@@ -103,6 +127,14 @@ void Menu()
 	cout << "3. APILAR \n";
 	cout << "4. DESAPILAR \n";
 
-	cout << "5. MOSTRAR \n";
-	cout << "6. SALIR";
+	cout << "5. BUSCAR \n";
+	cout << "6. REEMPLAZAR \n";
+	cout << "7. ELIMINAR \n";
+
+	cout << "8. MOSTRAR \n";
+	cout << "9. INSERTAR ORDENADO \n";
+	cout << "10. ORDENAR \n";
+	cout << "11. SALIR";
 }
+
+// ELIMINAR - REEMPLAZAR - BUSCAR

@@ -10,6 +10,7 @@ private:
 public:
 
 	Pilas(int Dimension);
+	void LLenarVector();
 	bool PilaVacia();
 	bool PilaLLena();
 	void Apilar(int D);
@@ -18,6 +19,13 @@ public:
 	int GetTope();
 	int GetLimite();
 	
+	void InsertarOrdenado();
+	void Ordenar();
+
+	void Buscar();
+	void Reemplazar();
+	void Eliminar();
+
 	void MostrarV();
 };
 
