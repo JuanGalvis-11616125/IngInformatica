@@ -1,4 +1,3 @@
-﻿  VectorPilas.cpp
-C:\Users\Juane\OneDrive\Documentos\Univercidad\Carrera\PROGRAMACION\VectorPilas\Pilas.h(8,9): warning C4200:  se ha utilizado una extensión no estándar: matriz de tamaño cero en struct/union
-C:\Users\Juane\OneDrive\Documentos\Univercidad\Carrera\PROGRAMACION\VectorPilas\Pilas.h(8,9): message :  Un constructor con valor predeterminado o un operador de asignación de copia o movimiento ignorará a este miembro.
+﻿  Lista.cpp
+C:\Users\Juane\OneDrive\Documentos\Univercidad\Carrera\PROGRAMACION\VectorPilas\Lista.cpp(100): warning C4715:  'Lista::Desapilar': no todas las rutas de acceso de control devuelven un valor
   VectorPilas.vcxproj -> C:\Users\Juane\OneDrive\Documentos\Univercidad\Carrera\PROGRAMACION\VectorPilas\Debug\VectorPilas.exe

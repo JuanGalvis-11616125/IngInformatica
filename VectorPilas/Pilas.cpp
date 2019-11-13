@@ -9,13 +9,6 @@ Pilas::Pilas(int Dimension)
 	V[Limite] = 0;
 }
 
-void Pilas::LLenarVector()
-{
-	for (int i = 0; i <= Limite; i++)
-	{
-		V[i] = 0;
-	}
-}
 
 int Pilas::GetTope()
 {
@@ -75,11 +68,10 @@ int Pilas::Desapilar()
 	bool Vacia = PilaVacia();
 	if (Vacia == false)
 	{
-		Aux = V[Tope]; //APILAR EL NUEVO 
-		Tope--; //AUMENTAR EL TOPE PARA INSERTAR
+		Aux = V[Tope]; 
+		Tope--;
 	}
 
-	// RETONARNAR EL DATO DESAPILADO
 	return Aux;
 }
 

@@ -10,7 +10,6 @@ private:
 public:
 
 	Pilas(int Dimension);
-	void LLenarVector();
 	bool PilaVacia();
 	bool PilaLLena();
 	void Apilar(int D);
