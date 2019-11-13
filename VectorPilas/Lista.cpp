@@ -154,7 +154,7 @@ void Lista::MostrarL()
 		while (Tope != -1)
 		{
 			b = Desapilar();
-			cout << b;
+			cout << "|" << b << "|";
 			cout << "\n";
 			Aux->ApilarLista(b);
 		}

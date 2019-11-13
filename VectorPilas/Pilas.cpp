@@ -91,7 +91,7 @@ void Pilas::MostrarV()
 		while (Tope != -1)
 		{
 			x = Desapilar();
-			cout << x;
+			cout << "|" << x << "|";
 			cout << "\n";
 			Aux->Apilar(x);
 		}
