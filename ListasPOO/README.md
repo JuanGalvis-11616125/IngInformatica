@@ -1,4 +1,5 @@
-ListasC- Listas C++ / Materia: Algoritmos 2
+#ListasC- Listas C++ 
+> Materia: Algoritmos 2
 
 Listas Simples:
 

@@ -1,5 +1,7 @@
-ACTIVIDADES / PROYECTOS
+#INGENIERÃA INFORMÃTICA
+> Juan Esteban Galvis Bedoya
 
-Universidad: Politécnico Jaime Isaza Cadavid
-Estudiante: Juan Esteban Galvis
-Carrera: Ingenieria Informática
+[![Universidad](https://www.politecnicojic.edu.co/images/logo/logo-negro.png "Universidad")](https://www.politecnicojic.edu.co/images/logo/logo-negro.png "Universidad")
+
+##### Temas:
+- ProgramaciÃ³n Orientada a Objetos (**C++**)

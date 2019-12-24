@@ -1,6 +1,7 @@
-Vector - M.Pilas / Materia: Algoritmos 2
+#Vector - M.Pilas
+> Materia: Algoritmos 2
 
-Acciones con Vector:
+**Acciones con Vector:**
 
 - Validar Pila Llena
 - Validar Pila Vacia
@@ -12,7 +13,7 @@ Acciones con Vector:
 - Mostrar Pila
 - Insertar Ordenado
 
-Acciones con Lista:
+**Acciones con Lista:**
 - Validar Pila Llena
 - Validar Pila Vacia
 - Apilar
